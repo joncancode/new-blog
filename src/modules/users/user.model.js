@@ -48,10 +48,10 @@ const UserSchema = new Schema({
 })
 
 UserSchema.pre('save', function (next) {
-  if (this.isModified(password)) {
+  if (this.isModified('password')) {
     this.password = this._hashPassword(this.password)
-    return next()
   }
+  return next()
 })
 
 UserSchema.methods = {
