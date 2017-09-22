@@ -17,8 +17,11 @@
     "compression": "^1.7.0",
     "cross-env": "^5.0.5",
     "express": "^4.15.4",
+    "express-validation": "^1.0.2",
     "helmet": "^3.8.1",
+    "joi": "^11.0.3",
     "mongoose": "^4.11.12",
+    "validator": "^8.2.0",
     "webpack": "^3.6.0",
     "webpack-node-externals": "^1.6.0"
   },
