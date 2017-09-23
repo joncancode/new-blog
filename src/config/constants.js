@@ -1,5 +1,6 @@
 const devConfig = {
   MONGO_URL: 'mongodb://localhost/blog-w-react-dev',
+  JWT_SECRET: 'this is a secret'
 };
 
 const testConfig = {
